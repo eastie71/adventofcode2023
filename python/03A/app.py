@@ -35,10 +35,9 @@ def valid_part_number(part_number, start_pos, current_row, above_row, below_row)
     #right
     elif (start_pos + part_len) < len(current_row) and symbols.find(current_row[start_pos + part_len]) != -1:
         return True
-    for pos in range(0, part_len):
-        #above or below
-        if row_has_adjacent_symbols(start_pos, part_len, above_row) or row_has_adjacent_symbols(start_pos, part_len, below_row):
-            return True
+    #above or below
+    if row_has_adjacent_symbols(start_pos, part_len, above_row) or row_has_adjacent_symbols(start_pos, part_len, below_row):
+        return True
     return False
 
 
