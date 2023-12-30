@@ -133,4 +133,4 @@ with open("Q5input.txt", "r") as file:
 #with open("test.txt", "r") as file:
     input_lines = [line.strip() for line in file.readlines()]
 
-print(f"Lowest location number = {get_lowest_location_number(input_lines)}")
+print(f"2023 - Question 5B: Lowest location number = {get_lowest_location_number(input_lines)}")

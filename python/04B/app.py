@@ -41,4 +41,4 @@ with open("Q4input.txt", "r") as file:
 # with open("test.txt", "r") as file:
     scratchcards = [line.strip() for line in file.readlines()]
 
-print(f"Total number of scratchcards = {get_total_count_of_scratchcards(scratchcards)}")
+print(f"2023 - Question 4B: Total number of scratchcards = {get_total_count_of_scratchcards(scratchcards)}")

@@ -68,4 +68,4 @@ with open("Q3input.txt", "r") as file:
 # with open("test.txt", "r") as file:
     schematic_lines = [line.strip() for line in file.readlines()]
 
-print(f"Total sum of valid part numbers = {get_valid_part_number_sum(schematic_lines)}")
+print(f"2023 - Question 3A: Total sum of valid part numbers = {get_valid_part_number_sum(schematic_lines)}")

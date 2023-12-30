@@ -108,4 +108,4 @@ with open("Q3input.txt", "r") as file:
 #with open("test.txt", "r") as file:
     schematic_lines = [line.strip() for line in file.readlines()]
 
-print(f"Total sum of all gear ratios = {get_gear_ratio_sum(schematic_lines)}")
+print(f"2023 - Question 3B: Total sum of all gear ratios = {get_gear_ratio_sum(schematic_lines)}")

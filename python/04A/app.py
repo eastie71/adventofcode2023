@@ -31,4 +31,4 @@ with open("Q4input.txt", "r") as file:
 # with open("test.txt", "r") as file:
     scratchcards = [line.strip() for line in file.readlines()]
 
-print(f"Total sum of points from the scratchcards = {get_winning_points_sum(scratchcards)}")
+print(f"2023 - Question 4A: Total sum of points from the scratchcards = {get_winning_points_sum(scratchcards)}")

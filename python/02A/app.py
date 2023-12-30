@@ -46,4 +46,4 @@ with open("Q2input.txt", "r") as file:
 #with open("test.txt", "r") as file:
     entries = [line.strip() for line in file.readlines()]
 
-print(f"Total sum of valid game IDs = {get_valid_game_id_sum(entries)}")
+print(f"2023 - Question 2A: Total sum of valid game IDs = {get_valid_game_id_sum(entries)}")

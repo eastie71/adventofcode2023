@@ -76,4 +76,4 @@ def get_calibration_sum(values):
 with open("Q1input.txt", "r") as file:
     entries = [line.strip() for line in file.readlines()]
 
-print(f"Total sum of calibration values = {get_calibration_sum(entries)}")
+print(f"2023 - Question 1B: Total sum of calibration values = {get_calibration_sum(entries)}")

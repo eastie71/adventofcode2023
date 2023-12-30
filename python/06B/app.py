@@ -46,4 +46,4 @@ with open("Q6input.txt", "r") as file:
 #with open("test.txt", "r") as file:
     input_lines = [line.strip() for line in file.readlines()]
 
-print(f"The total number of ways to beat the record = {get_product_of_num_ways_to_win(input_lines)}")
+print(f"2023 - Question 6B: The total number of ways to beat the record = {get_product_of_num_ways_to_win(input_lines)}")
